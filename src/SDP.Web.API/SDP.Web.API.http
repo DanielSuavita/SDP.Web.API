@@ -1,0 +1,33 @@
+@SDP.Web.API_HostAddress = http://localhost:5232/api
+
+GET {{SDP.Web.API_HostAddress}}/Health
+Accept: application/json
+
+###
+
+GET {{SDP.Web.API_HostAddress}}/Customers/SalesDatePrediction
+Accept: application/json
+
+###
+
+GET {{SDP.Web.API_HostAddress}}/Products/
+Accept: application/json
+
+###
+
+GET {{SDP.Web.API_HostAddress}}/Employees/
+Accept: application/json
+
+###
+
+GET {{SDP.Web.API_HostAddress}}/Shippers/
+Accept: application/json
+
+###
+
+POST {{SDP.Web.API_HostAddress}}/Orders/ByClient
+Content-Type: application/json
+{
+  "id": 1
+}
+###
