@@ -1,17 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96A4C66C-5CEE-481C-8CC9-0BD785A54D2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79D834A9-4DE9-4FC8-A3CE-A49430C18CF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{0A6C9CC7-0F98-495D-A599-9F904000888B}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\DBSetup.sql = scripts\DBSetup.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDP.Web.API", "src\SDP.Web.API\SDP.Web.API.csproj", "{83A5E1E5-E214-42FB-8F2B-6E0D1F8DF372}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDP.Web.API.Tests", "tests\SDP.Web.API.Tests\SDP.Web.API.Tests.csproj", "{D46F544C-BFF4-4037-9367-9DC395753F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{F4C55F6F-3A0A-435A-9E9B-8AC2340FDC7B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
