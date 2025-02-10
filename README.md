@@ -1,6 +1,6 @@
 # SPD.Web.API
 
-Api Prueba técnica para el trabajo de Desarrollador para Codifico. Hecho en .NET 9, SQL Server 2019 y Angular. Está compuesto de 2 soluciones:
+Api Prueba técnica para el trabajo de Desarrollador para Codifico. Hecho en .NET 9, SQL Server 2019 y Angular. Está compuesto de 3 soluciones:
 
 **El Backend del Proyecto**
 
@@ -9,6 +9,12 @@ https://github.com/DanielSuavita/SDP.Web.API
 **El Frontend del Proyecto**
 
 https://github.com/DanielSuavita/SDP.Web.App
+
+**El Proyecto en Vainilla Javascript D3Project**
+
+https://github.com/DanielSuavita/D3Project
+
+Las instrucciones para instalar y ejecutar el proyecto en Vainilla Javascript se encuentran en su respectivo repositorio.
 
 ## Prerrequisitos
 
